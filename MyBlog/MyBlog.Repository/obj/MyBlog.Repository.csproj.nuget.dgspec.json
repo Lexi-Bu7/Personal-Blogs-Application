@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\MyBlog.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\MyBlog.IRepository.csproj",
+        "projectName": "MyBlog.IRepository",
+        "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\MyBlog.IRepository.csproj",
+        "packagesPath": "C:\\Users\\byuey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\byuey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj": {
+                "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\MyBlog.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\MyBlog.IService.csproj",
+        "projectName": "MyBlog.IService",
+        "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\MyBlog.IService.csproj",
+        "packagesPath": "C:\\Users\\byuey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\byuey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj": {
+                "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj",
+        "projectName": "MyBlog.Model",
+        "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\MyBlog.Model.csproj",
+        "packagesPath": "C:\\Users\\byuey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\byuey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj",
+        "projectName": "MyBlog.Repository",
+        "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Repository\\MyBlog.Repository.csproj",
+        "packagesPath": "C:\\Users\\byuey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\byuey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\MyBlog.IRepository.csproj": {
+                "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IRepository\\MyBlog.IRepository.csproj"
+              },
+              "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\MyBlog.IService.csproj": {
+                "projectPath": "C:\\Users\\byuey\\Documents\\My Web Sites\\Personal Blogs Application\\MyBlog\\MyBlog.IService\\MyBlog.IService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SqlSugar.IOC": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
