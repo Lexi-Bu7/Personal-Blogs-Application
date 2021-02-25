@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBlog.IService;
+using MyBlog.WebApi.Utility.ApiResult;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,13 @@ namespace MyBlog.WebApi.Controllers
             this._iBlogNewsService = iBlogNewsService;
         }
         [HttpGet(template:"BlogNews")]
-        public async Task<ActionResult> GetBlogNews()
+        public async Task<ActionResult <ApiResult>>GetBlogNews()
         
         {
             var data = await _iBlogNewsService.QueryAsync();
-            return Ok(data);
+            if (data == null) return ApiResultHelper.Error(msg: "No search blog");
+            return ApiResultHelper.Success(data);
         }
+       
     }
 }

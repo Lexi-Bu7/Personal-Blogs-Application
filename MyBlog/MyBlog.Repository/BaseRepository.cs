@@ -15,13 +15,13 @@ namespace MyBlog.Repository
         public BaseRepository(ISqlSugarClient context= null):base(context)
         {
             base.Context = DbScoped.Sugar;
-            // create database
-            base.Context.DbMaintenance.CreateDatabase();
+            // create database and table
+             /* base.Context.DbMaintenance.CreateDatabase();
             base.Context.CodeFirst.InitTables(
                 typeof(BlogNews),
                 typeof(TypeInfo),
                 typeof(AuthorInfo)
-                );
+                );*/
         }
         public async Task<bool> CreateAsync(TEntity entity)
         {
