@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace MyBlog.WebApi.Utility.ApiResult
@@ -13,7 +14,7 @@ namespace MyBlog.WebApi.Utility.ApiResult
         {
             return new ApiResult
             {
-                Code = 200,
+                Code = HttpStatusCode.OK,
                 Data = data,
                 Msg = "Success",
                 Total = 0
@@ -23,7 +24,7 @@ namespace MyBlog.WebApi.Utility.ApiResult
         {
             return new ApiResult
             {
-                Code = 200,
+                Code = HttpStatusCode.OK,
                 Data = data,
                 Msg = "Success",
                 Total = total
@@ -33,7 +34,7 @@ namespace MyBlog.WebApi.Utility.ApiResult
         {
             return new ApiResult
             {
-                Code = 200,
+                Code = HttpStatusCode.BadRequest,
                 Data = null,
                 Msg = msg,
                 Total = 0

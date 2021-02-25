@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace MyBlog.WebApi.Utility.ApiResult
 {
     public class ApiResult
     {
-        public int Code { get; set; }
+        public System.Net.HttpStatusCode Code { get; set; }
         public int Total { get; set; }
         public String Msg { get; set; }
         public dynamic Data { get; set; }
