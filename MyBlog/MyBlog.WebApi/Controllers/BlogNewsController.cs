@@ -33,7 +33,10 @@ namespace MyBlog.WebApi.Controllers
         [HttpPost("Create")]
         public async Task<ActionResult<ApiResult>> Create(string title, string content, int typeid)
         {
-            // verify the data, add it later
+            // verify the data
+            #region verify if it's null
+            if (String.IsNullOrWhiteSpace(title)) return ApiResultHelper.Error("type can not be empty");
+            #endregion
             BlogNews blogNews = new BlogNews
             {
                 BrowseCount = 0,
