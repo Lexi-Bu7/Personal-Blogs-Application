@@ -14,6 +14,7 @@ namespace MyBlog.IService
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int id);
         // whole data search
+        Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> func);
         Task<List<TEntity>> QueryAsync();
         // specific condition search
         Task<List<TEntity>> QueryAsync(Expression<Func<TEntity, bool>> func);

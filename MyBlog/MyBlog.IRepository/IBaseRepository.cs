@@ -13,6 +13,8 @@ namespace MyBlog.IRepository
         Task<bool> DelteAsync(int id);
         Task<bool> EditAsync(TEntity entity);
         Task<TEntity> FindAsync(int id);
+
+        Task<TEntity> FindAsync(Expression<Func<TEntity,bool>> func);
         // whole data search
         Task<List<TEntity>> QueryAsync();
         // specific condition search
